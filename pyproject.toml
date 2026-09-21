@@ -1,0 +1,20 @@
+[project]
+name = "faq-chatbot"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "fastapi>=0.141.1",
+    "langchain-mistralai>=1.1.6",
+    "neuro-san-studio>=0.4.0",
+    "requests>=2.34.2",
+    "uvicorn>=0.53.0",
+]
+
+[project.scripts]
+faq-chatbot = "faq_chatbot:main"
+
+[build-system]
+requires = ["uv_build>=0.12.17,<0.13.0"]
+build-backend = "uv_build"

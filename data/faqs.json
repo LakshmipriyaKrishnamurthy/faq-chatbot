@@ -1,0 +1,402 @@
+[
+  {
+    "id": "FAQ001",
+    "category": "Fund Switching",
+    "question": "How do I switch funds in my policy?",
+    "answer": "Fund switching lets you transfer your existing policy funds to another available fund. You can request a switch through the online account under Transactions > Switch Funds, or submit the applicable form at a branch.",
+    "source": "XYZ Bank FAQ dataset (adapted from the referenced public financial-transactions FAQ)",
+    "source_url": "https://www.iciciprulife.com/customer-support/financial-transactions.html"
+  },
+  {
+    "id": "FAQ002",
+    "category": "Fund Switching",
+    "question": "What is fund switching?",
+    "answer": "Fund switching is the feature that allows you to transfer your current fund value from one fund to another fund of your choice.",
+    "source": "XYZ Bank FAQ dataset (adapted from the referenced public financial-transactions FAQ)",
+    "source_url": "https://www.iciciprulife.com/customer-support/financial-transactions.html"
+  },
+  {
+    "id": "FAQ003",
+    "category": "Fund Switching",
+    "question": "Can I switch my existing funds to another fund?",
+    "answer": "Yes. You can choose the target fund and specify the percentage of your existing funds that you want to switch.",
+    "source": "XYZ Bank FAQ dataset (adapted from the referenced public financial-transactions FAQ)",
+    "source_url": "https://www.iciciprulife.com/customer-support/financial-transactions.html"
+  },
+  {
+    "id": "FAQ004",
+    "category": "Fund Switching",
+    "question": "How do I switch funds online?",
+    "answer": "Log in to your online account, open Transactions, select Switch Funds, select your policy number, choose the target fund and percentage, review the details, and submit.",
+    "source": "XYZ Bank FAQ dataset (adapted from the referenced public financial-transactions FAQ)",
+    "source_url": "https://www.iciciprulife.com/customer-support/financial-transactions.html"
+  },
+  {
+    "id": "FAQ005",
+    "category": "Fund Switching",
+    "question": "Can I request a fund switch at a branch?",
+    "answer": "Yes. You can complete the applicable fund-switch request form and submit it at a branch.",
+    "source": "XYZ Bank FAQ dataset (adapted from the referenced public financial-transactions FAQ)",
+    "source_url": "https://www.iciciprulife.com/customer-support/financial-transactions.html"
+  },
+  {
+    "id": "FAQ006",
+    "category": "Fund Switching",
+    "question": "When will my fund switch be processed?",
+    "answer": "If the request is submitted on a working day before 3 PM, it is processed using the NAV declared for that day. Requests submitted after 3 PM or on a market-closed day are processed on the next working day.",
+    "source": "XYZ Bank FAQ dataset (adapted from the referenced public financial-transactions FAQ)",
+    "source_url": "https://www.iciciprulife.com/customer-support/financial-transactions.html"
+  },
+  {
+    "id": "FAQ007",
+    "category": "Fund Switching",
+    "question": "Is there a charge for fund switching?",
+    "answer": "After a certain number of switches, a charge may apply depending on the policy terms and conditions. Refer to your policy document for the applicable details.",
+    "source": "XYZ Bank FAQ dataset (adapted from the referenced public financial-transactions FAQ)",
+    "source_url": "https://www.iciciprulife.com/customer-support/financial-transactions.html"
+  },
+  {
+    "id": "FAQ008",
+    "category": "Fund Switching",
+    "question": "Can I choose the percentage of funds to switch?",
+    "answer": "Yes. During an online fund-switch request, you can specify the percentage of your existing funds to transfer to the selected target fund.",
+    "source": "XYZ Bank FAQ dataset (adapted from the referenced public financial-transactions FAQ)",
+    "source_url": "https://www.iciciprulife.com/customer-support/financial-transactions.html"
+  },
+  {
+    "id": "FAQ009",
+    "category": "Fund Switching",
+    "question": "Where can I find the Switch Funds option?",
+    "answer": "After logging in to the online account, go to the Transactions tab and select Switch Funds.",
+    "source": "XYZ Bank FAQ dataset (adapted from the referenced public financial-transactions FAQ)",
+    "source_url": "https://www.iciciprulife.com/customer-support/financial-transactions.html"
+  },
+  {
+    "id": "FAQ010",
+    "category": "Fund Switching",
+    "question": "What happens if I submit a fund switch after 3 PM?",
+    "answer": "If a fund-switch request is submitted after 3 PM on a working day, it is processed on the next working day rather than using that day's NAV.",
+    "source": "XYZ Bank FAQ dataset (adapted from the referenced public financial-transactions FAQ)",
+    "source_url": "https://www.iciciprulife.com/customer-support/financial-transactions.html"
+  },
+  {
+    "id": "FAQ011",
+    "category": "Premium Redirection",
+    "question": "What is premium redirection?",
+    "answer": "Premium Redirection lets you choose a different fund for investing future premiums. Premiums that were already invested remain in their existing funds.",
+    "source": "XYZ Bank FAQ dataset (adapted from the referenced public financial-transactions FAQ)",
+    "source_url": "https://www.iciciprulife.com/customer-support/financial-transactions.html"
+  },
+  {
+    "id": "FAQ012",
+    "category": "Premium Redirection",
+    "question": "How do I redirect future premiums to another fund?",
+    "answer": "Log in to your online account, go to Transactions > Premium Redirection, select the policy, choose the fund and percentage allocation, review the details, and submit.",
+    "source": "XYZ Bank FAQ dataset (adapted from the referenced public financial-transactions FAQ)",
+    "source_url": "https://www.iciciprulife.com/customer-support/financial-transactions.html"
+  },
+  {
+    "id": "FAQ013",
+    "category": "Premium Redirection",
+    "question": "Will my existing investments move when I change premium redirection?",
+    "answer": "No. Premium Redirection applies to future premiums. Amounts that were already invested remain in the funds previously selected.",
+    "source": "XYZ Bank FAQ dataset (adapted from the referenced public financial-transactions FAQ)",
+    "source_url": "https://www.iciciprulife.com/customer-support/financial-transactions.html"
+  },
+  {
+    "id": "FAQ014",
+    "category": "Premium Redirection",
+    "question": "Can I submit a premium redirection request at a branch?",
+    "answer": "Yes. You can complete the Premium Redirection section of the applicable form and submit it at a branch.",
+    "source": "XYZ Bank FAQ dataset (adapted from the referenced public financial-transactions FAQ)",
+    "source_url": "https://www.iciciprulife.com/customer-support/financial-transactions.html"
+  },
+  {
+    "id": "FAQ015",
+    "category": "Premium Redirection",
+    "question": "How long does premium redirection take?",
+    "answer": "Once the request is received, it is processed within 4 working days and a confirmation is sent.",
+    "source": "XYZ Bank FAQ dataset (adapted from the referenced public financial-transactions FAQ)",
+    "source_url": "https://www.iciciprulife.com/customer-support/financial-transactions.html"
+  },
+  {
+    "id": "FAQ016",
+    "category": "Automatic Transfer Strategy",
+    "question": "What is Automatic Transfer Strategy?",
+    "answer": "Automatic Transfer Strategy is a facility under which a fixed amount is transferred from a debt fund to an equity fund every month. It works like an automatic switch.",
+    "source": "XYZ Bank FAQ dataset (adapted from the referenced public financial-transactions FAQ)",
+    "source_url": "https://www.iciciprulife.com/customer-support/financial-transactions.html"
+  },
+  {
+    "id": "FAQ017",
+    "category": "Automatic Transfer Strategy",
+    "question": "How does Automatic Transfer Strategy work?",
+    "answer": "A predetermined amount is automatically switched from the debt fund to the selected equity fund each month. This can help average the NAV while moving between funds.",
+    "source": "XYZ Bank FAQ dataset (adapted from the referenced public financial-transactions FAQ)",
+    "source_url": "https://www.iciciprulife.com/customer-support/financial-transactions.html"
+  },
+  {
+    "id": "FAQ018",
+    "category": "Automatic Transfer Strategy",
+    "question": "How do I enable Automatic Transfer Strategy?",
+    "answer": "Log in to the online account, go to Transactions, select Automatic Transfer Plan/Strategy, choose the policy, target fund, transfer date and amount, review the details, and submit.",
+    "source": "XYZ Bank FAQ dataset (adapted from the referenced public financial-transactions FAQ)",
+    "source_url": "https://www.iciciprulife.com/customer-support/financial-transactions.html"
+  },
+  {
+    "id": "FAQ019",
+    "category": "Automatic Transfer Strategy",
+    "question": "Can I set the transfer amount and date for Automatic Transfer Strategy?",
+    "answer": "Yes. When setting up the strategy online, you can select the target fund, transfer date and amount, subject to the features available under your policy.",
+    "source": "XYZ Bank FAQ dataset (adapted from the referenced public financial-transactions FAQ)",
+    "source_url": "https://www.iciciprulife.com/customer-support/financial-transactions.html"
+  },
+  {
+    "id": "FAQ020",
+    "category": "Automatic Transfer Strategy",
+    "question": "How long does an Automatic Transfer Strategy request take?",
+    "answer": "Once the request is received, it is processed within 4 working days and a confirmation is sent.",
+    "source": "XYZ Bank FAQ dataset (adapted from the referenced public financial-transactions FAQ)",
+    "source_url": "https://www.iciciprulife.com/customer-support/financial-transactions.html"
+  },
+  {
+    "id": "FAQ021",
+    "category": "Portfolio Investment Strategy",
+    "question": "What is a Portfolio Investment Strategy?",
+    "answer": "Portfolio Investment Strategy determines how the funds linked to a unit-linked policy are invested. Available strategies can automatically manage funds according to the strategy selected.",
+    "source": "XYZ Bank FAQ dataset (adapted from the referenced public financial-transactions FAQ)",
+    "source_url": "https://www.iciciprulife.com/customer-support/financial-transactions.html"
+  },
+  {
+    "id": "FAQ022",
+    "category": "Portfolio Investment Strategy",
+    "question": "Can I choose a Portfolio Investment Strategy?",
+    "answer": "Yes. Where available under your policy, you can choose a strategy according to your financial goal and risk appetite.",
+    "source": "XYZ Bank FAQ dataset (adapted from the referenced public financial-transactions FAQ)",
+    "source_url": "https://www.iciciprulife.com/customer-support/financial-transactions.html"
+  },
+  {
+    "id": "FAQ023",
+    "category": "Portfolio Investment Strategy",
+    "question": "How do I change my Portfolio Investment Strategy?",
+    "answer": "Log in to the online account, go to Transactions, select Change in Portfolio Strategy (CIPS), select the policy, choose an applicable strategy, and submit.",
+    "source": "XYZ Bank FAQ dataset (adapted from the referenced public financial-transactions FAQ)",
+    "source_url": "https://www.iciciprulife.com/customer-support/financial-transactions.html"
+  },
+  {
+    "id": "FAQ024",
+    "category": "Portfolio Investment Strategy",
+    "question": "Can I change my Portfolio Investment Strategy at a branch?",
+    "answer": "Yes. You can complete the CIPS section of the applicable form and submit it at a branch.",
+    "source": "XYZ Bank FAQ dataset (adapted from the referenced public financial-transactions FAQ)",
+    "source_url": "https://www.iciciprulife.com/customer-support/financial-transactions.html"
+  },
+  {
+    "id": "FAQ025",
+    "category": "Portfolio Investment Strategy",
+    "question": "How long does a Portfolio Investment Strategy change take?",
+    "answer": "Once the request is received, it is processed within 4 working days and a confirmation is sent.",
+    "source": "XYZ Bank FAQ dataset (adapted from the referenced public financial-transactions FAQ)",
+    "source_url": "https://www.iciciprulife.com/customer-support/financial-transactions.html"
+  },
+  {
+    "id": "FAQ026",
+    "category": "Top-Up",
+    "question": "What is a top-up?",
+    "answer": "A top-up allows you to invest additional surplus money into an existing unit-linked policy.",
+    "source": "XYZ Bank FAQ dataset (adapted from the referenced public financial-transactions FAQ)",
+    "source_url": "https://www.iciciprulife.com/customer-support/financial-transactions.html"
+  },
+  {
+    "id": "FAQ027",
+    "category": "Top-Up",
+    "question": "When can I make a top-up?",
+    "answer": "You can make a top-up during the policy term as long as all due premiums have been paid.",
+    "source": "XYZ Bank FAQ dataset (adapted from the referenced public financial-transactions FAQ)",
+    "source_url": "https://www.iciciprulife.com/customer-support/financial-transactions.html"
+  },
+  {
+    "id": "FAQ028",
+    "category": "Top-Up",
+    "question": "How do I make a top-up online?",
+    "answer": "You can use the online top-up facility by entering your policy number and date of birth and paying the top-up amount online.",
+    "source": "XYZ Bank FAQ dataset (adapted from the referenced public financial-transactions FAQ)",
+    "source_url": "https://www.iciciprulife.com/customer-support/financial-transactions.html"
+  },
+  {
+    "id": "FAQ029",
+    "category": "Top-Up",
+    "question": "How do I make a top-up through my online account?",
+    "answer": "Log in to the online account, select the Top-up tab, choose the policy number, enter the required payment details, and complete the payment.",
+    "source": "XYZ Bank FAQ dataset (adapted from the referenced public financial-transactions FAQ)",
+    "source_url": "https://www.iciciprulife.com/customer-support/financial-transactions.html"
+  },
+  {
+    "id": "FAQ030",
+    "category": "Top-Up",
+    "question": "Can I make a top-up at a branch?",
+    "answer": "Yes. Complete the Top-up section of the applicable form and submit it at a branch with a cheque for the top-up amount.",
+    "source": "XYZ Bank FAQ dataset (adapted from the referenced public financial-transactions FAQ)",
+    "source_url": "https://www.iciciprulife.com/customer-support/financial-transactions.html"
+  },
+  {
+    "id": "FAQ031",
+    "category": "Top-Up",
+    "question": "When is a top-up processed?",
+    "answer": "If submitted on a working day before 3 PM, the top-up is processed using the NAV declared for that day. Requests submitted after 3 PM or on a market-closed day are processed on the next working day.",
+    "source": "XYZ Bank FAQ dataset (adapted from the referenced public financial-transactions FAQ)",
+    "source_url": "https://www.iciciprulife.com/customer-support/financial-transactions.html"
+  },
+  {
+    "id": "FAQ032",
+    "category": "Top-Up",
+    "question": "Do I need to have paid all due premiums before a top-up?",
+    "answer": "Yes. A top-up can be made only when all due premiums have been paid.",
+    "source": "XYZ Bank FAQ dataset (adapted from the referenced public financial-transactions FAQ)",
+    "source_url": "https://www.iciciprulife.com/customer-support/financial-transactions.html"
+  },
+  {
+    "id": "FAQ033",
+    "category": "Policy Statements",
+    "question": "How do I get my policy or unit statement?",
+    "answer": "You can view or download the policy/unit statement online by entering your policy number and date of birth. You can also request it through the online account, by phone after verification, or at a branch.",
+    "source": "XYZ Bank FAQ dataset (adapted from the referenced public financial-transactions FAQ)",
+    "source_url": "https://www.iciciprulife.com/customer-support/financial-transactions.html"
+  },
+  {
+    "id": "FAQ034",
+    "category": "Policy Statements",
+    "question": "What information is included in the policy/unit statement?",
+    "answer": "The statement contains details of the funds linked to the policy and transactions carried out on the policy.",
+    "source": "XYZ Bank FAQ dataset (adapted from the referenced public financial-transactions FAQ)",
+    "source_url": "https://www.iciciprulife.com/customer-support/financial-transactions.html"
+  },
+  {
+    "id": "FAQ035",
+    "category": "Policy Statements",
+    "question": "How often is the policy/unit statement sent?",
+    "answer": "A policy/unit statement is sent every year in the month in which the policy was purchased, until the end of the policy term.",
+    "source": "XYZ Bank FAQ dataset (adapted from the referenced public financial-transactions FAQ)",
+    "source_url": "https://www.iciciprulife.com/customer-support/financial-transactions.html"
+  },
+  {
+    "id": "FAQ036",
+    "category": "Policy Statements",
+    "question": "Will I receive a statement after a transaction?",
+    "answer": "Yes. A policy/unit statement is also sent when a transaction such as a fund switch or top-up is completed.",
+    "source": "XYZ Bank FAQ dataset (adapted from the referenced public financial-transactions FAQ)",
+    "source_url": "https://www.iciciprulife.com/customer-support/financial-transactions.html"
+  },
+  {
+    "id": "FAQ037",
+    "category": "Policy Statements",
+    "question": "How can I download my policy/unit statement online?",
+    "answer": "Use the online statement facility, enter your policy number and date of birth, and access the policy/unit statement.",
+    "source": "XYZ Bank FAQ dataset (adapted from the referenced public financial-transactions FAQ)",
+    "source_url": "https://www.iciciprulife.com/customer-support/financial-transactions.html"
+  },
+  {
+    "id": "FAQ038",
+    "category": "Policy Statements",
+    "question": "Can I request my policy/unit statement from a branch?",
+    "answer": "Yes. You can request the policy/unit statement at a branch.",
+    "source": "XYZ Bank FAQ dataset (adapted from the referenced public financial-transactions FAQ)",
+    "source_url": "https://www.iciciprulife.com/customer-support/financial-transactions.html"
+  },
+  {
+    "id": "FAQ039",
+    "category": "Partial Withdrawal",
+    "question": "What is partial withdrawal?",
+    "answer": "Partial Withdrawal allows you to withdraw a certain amount from the fund value of a unit-linked policy. The amount that can be withdrawn depends on the number of years completed in the policy and the applicable policy terms.",
+    "source": "XYZ Bank FAQ dataset (adapted from the referenced public financial-transactions FAQ)",
+    "source_url": "https://www.iciciprulife.com/customer-support/financial-transactions.html"
+  },
+  {
+    "id": "FAQ040",
+    "category": "Partial Withdrawal",
+    "question": "How do I request a partial withdrawal?",
+    "answer": "Log in to the online account, go to Transactions, select Partial Withdrawal, enter the bank account details for the payout and provide the required photo identity proof, review the details, and apply.",
+    "source": "XYZ Bank FAQ dataset (adapted from the referenced public financial-transactions FAQ)",
+    "source_url": "https://www.iciciprulife.com/customer-support/financial-transactions.html"
+  },
+  {
+    "id": "FAQ041",
+    "category": "Partial Withdrawal",
+    "question": "Can I request a partial withdrawal at a branch?",
+    "answer": "Yes. You can visit a branch with your photo identity proof and a copy of the cancelled cheque for the bank account where the payout should be transferred.",
+    "source": "XYZ Bank FAQ dataset (adapted from the referenced public financial-transactions FAQ)",
+    "source_url": "https://www.iciciprulife.com/customer-support/financial-transactions.html"
+  },
+  {
+    "id": "FAQ042",
+    "category": "Partial Withdrawal",
+    "question": "What documents are required for partial withdrawal?",
+    "answer": "The required documents include photo identity proof of the policyholder and a copy of the policyholder's cancelled cheque, bank statement, or bank account passbook for the payout account.",
+    "source": "XYZ Bank FAQ dataset (adapted from the referenced public financial-transactions FAQ)",
+    "source_url": "https://www.iciciprulife.com/customer-support/financial-transactions.html"
+  },
+  {
+    "id": "FAQ043",
+    "category": "Partial Withdrawal",
+    "question": "Which identity proofs are accepted for partial withdrawal?",
+    "answer": "Accepted photo identity proofs include Aadhaar Card, Voter ID, Passport, Driving License, or Job Card.",
+    "source": "XYZ Bank FAQ dataset (adapted from the referenced public financial-transactions FAQ)",
+    "source_url": "https://www.iciciprulife.com/customer-support/financial-transactions.html"
+  },
+  {
+    "id": "FAQ044",
+    "category": "Partial Withdrawal",
+    "question": "Is PAN required for partial withdrawal payouts?",
+    "answer": "PAN is mandatory for payouts if it has not already been updated, for TDS calculation purposes.",
+    "source": "XYZ Bank FAQ dataset (adapted from the referenced public financial-transactions FAQ)",
+    "source_url": "https://www.iciciprulife.com/customer-support/financial-transactions.html"
+  },
+  {
+    "id": "FAQ045",
+    "category": "Partial Withdrawal",
+    "question": "What bank details are needed for a partial withdrawal payout?",
+    "answer": "Keep the MICR and IFSC codes available when updating bank details online. The payout bank account details are validated with a small ₹1 credit.",
+    "source": "XYZ Bank FAQ dataset (adapted from the referenced public financial-transactions FAQ)",
+    "source_url": "https://www.iciciprulife.com/customer-support/financial-transactions.html"
+  },
+  {
+    "id": "FAQ046",
+    "category": "Partial Withdrawal",
+    "question": "What happens if my bank account cannot be validated?",
+    "answer": "If the bank details cannot be validated, you may be required to upload a cancelled cheque with the account holder's name printed on it.",
+    "source": "XYZ Bank FAQ dataset (adapted from the referenced public financial-transactions FAQ)",
+    "source_url": "https://www.iciciprulife.com/customer-support/financial-transactions.html"
+  },
+  {
+    "id": "FAQ047",
+    "category": "Partial Withdrawal",
+    "question": "Can I receive a partial withdrawal payout in an NRE account?",
+    "answer": "Yes, but you need to provide proof that all premiums were paid from the NRE account. Proof can include a bank statement, passbook, or bank confirmation letter on the bank's letterhead.",
+    "source": "XYZ Bank FAQ dataset (adapted from the referenced public financial-transactions FAQ)",
+    "source_url": "https://www.iciciprulife.com/customer-support/financial-transactions.html"
+  },
+  {
+    "id": "FAQ048",
+    "category": "Partial Withdrawal",
+    "question": "What if I do not have proof of NRE premium payments?",
+    "answer": "If NRE premium payment proofs are not available, NRO bank account details may be provided for the payout.",
+    "source": "XYZ Bank FAQ dataset (adapted from the referenced public financial-transactions FAQ)",
+    "source_url": "https://www.iciciprulife.com/customer-support/financial-transactions.html"
+  },
+  {
+    "id": "FAQ049",
+    "category": "Partial Withdrawal",
+    "question": "How long does a partial withdrawal take to process?",
+    "answer": "After the request is received and all requirements are validated, the payment is processed within 8 working days.",
+    "source": "XYZ Bank FAQ dataset (adapted from the referenced public financial-transactions FAQ)",
+    "source_url": "https://www.iciciprulife.com/customer-support/financial-transactions.html"
+  },
+  {
+    "id": "FAQ050",
+    "category": "Partial Withdrawal",
+    "question": "How much can I withdraw through partial withdrawal?",
+    "answer": "The amount that can be withdrawn depends on the number of years completed in the policy and the applicable partial-withdrawal terms. Refer to the policy document for the specific limits.",
+    "source": "XYZ Bank FAQ dataset (adapted from the referenced public financial-transactions FAQ)",
+    "source_url": "https://www.iciciprulife.com/customer-support/financial-transactions.html"
+  }
+]

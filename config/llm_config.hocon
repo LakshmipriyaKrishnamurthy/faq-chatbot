@@ -1,0 +1,7 @@
+{
+    "llm_config": {
+        "class": "langchain_google_genai.chat_models.ChatGoogleGenerativeAI",
+        "model": "gemini-3.6-flash",
+        "temperature": 0.2
+    }
+}

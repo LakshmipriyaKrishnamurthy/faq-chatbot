@@ -1,0 +1,25 @@
+.env
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# SQLite databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Node
+node_modules/
+frontend/dist/
+
+# Logs
+logs/
+*.log
+
+
+# Build output
+dist/
+build/
