@@ -1,11 +1,26 @@
-import { BackendHistoryMessage, ChatHistoryResponse } from '../types/chat';
+import {
+  BackendHistoryMessage,
+  ChatHistoryResponse,
+  Conversation,
+  ConversationListResponse,
+} from '../types/chat';
 
 const API_BASE_URL = (import.meta.env.VITE_API_BASE_URL || 'http://localhost:8000').replace(/\/+$/, '');
 const DEFAULT_ERROR_MESSAGE = "Sorry, I couldn't connect to the FAQ assistant. Please try again.";
 
 export interface ChatRequestPayload {
   session_id: string;
+  conversation_id: string;
   message: string;
+}
+
+interface SessionResponse {
+  session_id: string;
+}
+
+interface CreateConversationResponse extends SessionResponse {
+  conversation_id: string;
+  title: string;
 }
 
 /**
@@ -45,6 +60,7 @@ function extractCleanText(rawContent: string): string {
  */
 export async function sendMessageStream(
   sessionId: string,
+  conversationId: string,
   message: string,
   onChunk: (chunk: string) => void
 ): Promise<string> {
@@ -52,6 +68,7 @@ export async function sendMessageStream(
 
   const payload: ChatRequestPayload = {
     session_id: sessionId,
+    conversation_id: conversationId,
     message: message.trim(),
   };
 
@@ -125,10 +142,63 @@ export async function sendMessageStream(
 }
 
 /**
- * Fetches conversation history for a given session ID from GET /chat/history/{session_id}.
+ * Creates a browser session on the backend.
  */
-export async function fetchChatHistory(sessionId: string): Promise<BackendHistoryMessage[]> {
-  const endpoint = `${API_BASE_URL}/chat/history/${encodeURIComponent(sessionId)}`;
+export async function createSession(): Promise<string> {
+  const response = await fetch(`${API_BASE_URL}/sessions`, {
+    method: 'POST',
+    headers: { 'Accept': 'application/json' },
+  });
+
+  if (!response.ok) {
+    throw new Error(`Failed to create session (HTTP ${response.status})`);
+  }
+
+  const data: SessionResponse = await response.json();
+  return data.session_id;
+}
+
+/** Creates a conversation belonging to an existing session. */
+export async function createConversation(sessionId: string): Promise<CreateConversationResponse> {
+  const response = await fetch(`${API_BASE_URL}/conversations`, {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+      'Accept': 'application/json',
+    },
+    body: JSON.stringify({ session_id: sessionId }),
+  });
+
+  if (!response.ok) {
+    throw new Error(`Failed to create conversation (HTTP ${response.status})`);
+  }
+
+  return response.json();
+}
+
+/** Fetches the conversations belonging to a session. */
+export async function fetchConversations(sessionId: string): Promise<Conversation[]> {
+  const endpoint = `${API_BASE_URL}/conversations/${encodeURIComponent(sessionId)}`;
+
+  const response = await fetch(endpoint, {
+    method: 'GET',
+    headers: { 'Accept': 'application/json' },
+  });
+
+  if (!response.ok) {
+    throw new Error(`Failed to load conversations (HTTP ${response.status})`);
+  }
+
+  const data: ConversationListResponse = await response.json();
+  return data.conversations || [];
+}
+
+/** Fetches messages for one conversation. */
+export async function fetchChatHistory(
+  sessionId: string,
+  conversationId: string,
+): Promise<BackendHistoryMessage[]> {
+  const endpoint = `${API_BASE_URL}/chat/history/${encodeURIComponent(sessionId)}/${encodeURIComponent(conversationId)}`;
 
   const response = await fetch(endpoint, {
     method: 'GET',
@@ -146,10 +216,10 @@ export async function fetchChatHistory(sessionId: string): Promise<BackendHistor
 }
 
 /**
- * Deletes conversation on the backend for a given session ID via DELETE /chat/{session_id}.
+ * Deletes one conversation from a session.
  */
-export async function deleteChatSession(sessionId: string): Promise<void> {
-  const endpoint = `${API_BASE_URL}/chat/${encodeURIComponent(sessionId)}`;
+export async function deleteConversation(sessionId: string, conversationId: string): Promise<void> {
+  const endpoint = `${API_BASE_URL}/conversations/${encodeURIComponent(sessionId)}/${encodeURIComponent(conversationId)}`;
 
   const response = await fetch(endpoint, {
     method: 'DELETE',
@@ -159,6 +229,6 @@ export async function deleteChatSession(sessionId: string): Promise<void> {
   });
 
   if (!response.ok) {
-    console.warn(`[chatService] Failed to delete session ${sessionId}: HTTP ${response.status}`);
+    throw new Error(`Failed to delete conversation (HTTP ${response.status})`);
   }
 }

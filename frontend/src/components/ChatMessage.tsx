@@ -138,6 +138,7 @@ const markdownComponents: Components = {
 export const ChatMessage: React.FC<ChatMessageProps> = ({ message }) => {
   const isUser = message.role === 'user';
   const isError = message.isError;
+  const isStreaming = message.isStreaming;
 
   return (
     <div
@@ -173,11 +174,25 @@ export const ChatMessage: React.FC<ChatMessageProps> = ({ message }) => {
           <div className="whitespace-pre-wrap font-normal">
             {message.content}
           </div>
+        ) : !message.content && isStreaming ? (
+          /* Empty assistant message while waiting for the first streaming chunk */
+          <div className="flex items-center gap-1.5 py-1.5 px-1" aria-label="Assistant is thinking">
+            <span className="w-2 h-2 rounded-full bg-bank-500 animate-bounce [animation-delay:-0.3s]"></span>
+            <span className="w-2 h-2 rounded-full bg-bank-500 animate-bounce [animation-delay:-0.15s]"></span>
+            <span className="w-2 h-2 rounded-full bg-bank-500 animate-bounce"></span>
+          </div>
         ) : (
-          <div className="font-normal">
+          <div className="font-normal relative">
             <ReactMarkdown components={markdownComponents}>
               {message.content}
             </ReactMarkdown>
+            {isStreaming && (
+              <span
+                className="inline-block w-1.5 h-4 ml-1 bg-bank-600 animate-pulse align-middle rounded-sm"
+                aria-hidden="true"
+                title="Streaming..."
+              />
+            )}
           </div>
         )}
       </div>
@@ -186,4 +201,3 @@ export const ChatMessage: React.FC<ChatMessageProps> = ({ message }) => {
 };
 
 export default ChatMessage;
-
