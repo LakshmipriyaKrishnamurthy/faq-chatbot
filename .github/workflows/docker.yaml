@@ -36,3 +36,12 @@ jobs:
           push: true
           tags: |
             ${{ secrets.DOCKERHUB_USERNAME }}/faq-frontend:latest
+      
+      - name: Build and push Neuro-SAN
+        uses: docker/build-push-action@v6
+        with:
+            context: .
+            file: ./Dockerfile.neurosan
+            push: true
+            tags: |
+              ${{ secrets.DOCKERHUB_USERNAME }}/faq-neurosan:latest

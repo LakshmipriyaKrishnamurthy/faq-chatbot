@@ -1,9 +1,6 @@
 services:
-
   neuro-san:
-    build:
-      context: .
-      dockerfile: Dockerfile.neurosan
+    image: lakshmipriya1097/faq-neurosan:latest
     container_name: faq-neurosan
     env_file:
       - .env
@@ -11,9 +8,7 @@ services:
       - "8080:8080"
 
   backend:
-    build:
-      context: .
-      dockerfile: backend/Dockerfile
+    image: lakshmipriya1097/faq-backend:latest
     container_name: faq-backend
     environment:
       NEURO_SAN_URL: http://neuro-san:8080/api/v1/generated/xyz_bank_faq_chatbot/streaming_chat
@@ -23,9 +18,7 @@ services:
       - neuro-san
 
   frontend:
-    build:
-      context: ./frontend
-      dockerfile: Dockerfile
+    image: lakshmipriya1097/faq-frontend:latest
     container_name: faq-frontend
     ports:
       - "3000:80"
